@@ -5,7 +5,7 @@ $query = "SELECT * FROM notes";
 $notes = fetch_all($query);
 ?>
 <html>
-	<script type="text/javascript" src = 'http://bit.ly/jquerylazy'></script>
+	<script type="text/javascript" src = 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
 <head>
 	<title>Post Its!</title>
 	<style>
